@@ -5,9 +5,8 @@ box-sizing: border-box;
 }
 
 
-.container{
-
-background-color: red;
+#container{
+/* background-color: red; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -16,12 +15,18 @@ align-items: center;
 .slides{
     width: 1000px;
     height: 500px;
-    background-color: blue;
+    /* background-color: blue; */
 }
+.slides img {
 
+    width: 1000px;
+    height: 500px;
+}
 
 
 .prev, .next{
 font-size: 35px;
-
+}
+.prev i, .next i{
+cursor: pointer;
 }
