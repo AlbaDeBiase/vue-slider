@@ -24,6 +24,10 @@ align-items: center;
     height: 500px;
 }
 
+.active{
+color:green;
+}
+
 
 .prev, .next{
 font-size: 35px;
@@ -33,4 +37,11 @@ color:blue;
 
 .prev i, .next i{
 cursor: pointer;
+}
+
+.pallini{
+position: absolute;
+top:480px;
+font-size: 30px;
+color:blue;
 }
