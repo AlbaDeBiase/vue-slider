@@ -30,9 +30,16 @@ var app = new Vue(
                     this.indice_immagine=this.immagini.length -1;
 
                 }
-
+        },
+        cambiaImmagine() {
+            if(this.indice_immagine +=1) {
+                this.indice_immagine ==indice
+        }else{
+       this.indice_immagine = 0
+        }
+    
+    }
         }
 
-     }
 
 });

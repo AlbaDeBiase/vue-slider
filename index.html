@@ -19,10 +19,8 @@
             <i @click="next_image" class="fas fa-arrow-circle-right"></i>
         </div>
         <div class="pallini">
-                <i v-for="(immagine,indice) in immagini"
-                :class="indice==indice_immagine ? 'active': null"
-                 class="fas fa-dot-circle"></i>
-
+                <i @click="cambiaImmagine" class="fas fa-dot-circle"></i>
+                <i v-for="(immagine,indice) in immagini":class="indice==indice_immagine ? 'active': null" class="fas fa-dot-circle"></i>
         </div>
     </div>
 

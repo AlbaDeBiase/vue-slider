@@ -28,6 +28,9 @@ align-items: center;
 color:green;
 }
 
+.pink{
+font-size: 30px;
+}
 
 .prev, .next{
 font-size: 35px;
@@ -44,4 +47,5 @@ position: absolute;
 top:480px;
 font-size: 30px;
 color:blue;
+cursor: pointer;;
 }
