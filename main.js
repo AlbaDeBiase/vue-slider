@@ -18,10 +18,7 @@ var app = new Vue(
     },
     methods: {
         next_image() {
-                // incremento l'indice dell'immagine corrente
                 this.indice_immagine += 1;
-                // verifico l'indice è uscito dal range delle posizioni dell'array
-                // ossia se ho superato il limite superiore
                 if(this.indice_immagine > this.immagini.length - 1) {
                     this.indice_immagine = 0;
                 }
@@ -29,8 +26,8 @@ var app = new Vue(
     },
         prev_image() {
                 this.indice_immagine -=1;
-                if (this.indice_immagine > 0) {
-                    this.indice_immagine=this.indice_immagini.length -1;
+                if (this.indice_immagine < 0) {
+                    this.indice_immagine=this.immagini.length -1;
 
                 }
 
