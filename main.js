@@ -31,13 +31,9 @@ var app = new Vue(
 
                 }
         },
-        cambiaImmagine() {
-            if(this.indice_immagine +=1) {
-                this.indice_immagine ==indice
-        }else{
-       this.indice_immagine = 0
-        }
-    
+        cambiaImmagine(indice) {
+            this.indice_immagine=indice;
+            // this.resetPlay();
     }
         }
 
